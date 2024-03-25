@@ -1,13 +1,175 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+
+
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+
+  background-color: black;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+
+}
+
+.navbar a:hover {
+  color: bisque;
+}
+
+.bodyindex {
+  height: 100vh;
+  background-image: url('d1.jpg');
+  background-size: cover;
+  background-position: center;
+  /* display: grid; */
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  height: auto;
+  text-align: center;
+
+}
+
+.perintcared {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 5px;
+  margin-left: 5px;
+  gap: 10px;
+  height: 400px;
+  width: auto;
+
+
+}
+
+.card>img {
+  width: 50%;
+  height: 50%;
+  margin: 2px auto;
+
+}
+
+.card {
+
+  border: 5px solid black;
+  text-align: center;
+
+
+}
+
+.card:hover {
+  transform: translateY(3px);
+}
+
+.data-detels {
+  text-align: center;
+  border: 2px solid red;
+  width: 50%;
+  height: 50%;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+
+.links {
+  text-decoration: none;
+  margin-left: 60px;
+}
+
+.creat {
+  color: white;
+  text-decoration: none;
+}
+
+.form-data {
+  text-align: center;
+  border: 2px solid red;
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+
+.imgeitem {
+
+  width: 150px;
+  height: 250px;
+}
+
+.loading {
+  text-align: center;
+}
+
+.detales {
+
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid red;
+  width: 50%;
+  height: auto;
+
+}
+
+.data-booking {
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid red;
+  width: 50%;
+  height: auto;
+
+}
+
+/* this is style login and sigin up */
+
+.form-sigup {
+
+  width: 50%;
+  height: auto;
+  border: 2px solid black;
+  text-align: center;
+  margin: 10px auto;
+  /* background-color: red; */
+}
+
+.logo-signup {
+  font-size: 1.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.label-l {
+  font-size: 1.1em;
+}
+
+.text-feiled {
+  border-radius: 5px;
+}
+
+.loginform {
+  width: 50%;
+  height: auto;
+  border: 2px solid black;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.loginfiled {
+  border-radius: 5px;
+}
+
+.label-login {
+  font-size: 1.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
